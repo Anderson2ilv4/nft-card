@@ -4,4 +4,87 @@
 font-family:Outfit;*/
 body {
     background: hsl(217, 54%, 11%);
+    color: white;
+    position: relative;
+}
+#card-body {
+    width: 400px;
+    height: 680px;
+    position: relative;
+    margin: 0 auto;
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+#nft-image {
+    width: 350px;
+    border-radius: 5px;
+    margin: 25px;
+}
+#nft-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px 25px;
+    color: hsl(0, 0%, 100%);
+}
+#nft-description {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 25px ;
+    color: hsl(215, 51%, 70%);
+}
+#data {
+    margin: 25px;
+}
+#eth-text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    bottom: 2px;
+    left: 5px;
+}
+#clock-icon {
+    position: relative;
+    left: 145px;
+}
+#clock-text {
+    position: relative;
+    float: right;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    bottom: 2px;
+}
+#line {
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+    border: none;
+    margin: 25px;
+}
+footer {
+    margin: 25px;
+}
+#avatar {
+    width: 40px;
+    position: relative;
+    bottom: 5px;
+    border: solid 1px hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+#avatar-description {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    color: hsl(215, 51%, 70%);
+    bottom: 20px;
+    left: 15px;
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
 }
