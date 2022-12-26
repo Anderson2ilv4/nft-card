@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/*ways to use the font-family*/
+/*font-family: 'Outfit', sans-serif;
+font-family:Outfit;*/
 body {
     background: hsl(217, 54%, 11%);
 }
