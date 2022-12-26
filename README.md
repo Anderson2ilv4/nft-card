@@ -1,2 +1,4 @@
-# nft-card
+# NFT card
+
+Project in progress!
  
