@@ -7,28 +7,6 @@ body {
     color: white;
     position: relative;
 }
-#image-hover {
-    width: 350px;
-    height: 347px;
-    position: fixed;
-    background: hsl(178, 100%, 50%);
-    top: 35px;
-    left: 240px;
-    z-index: 2;
-    border-radius: 5px;
-    opacity: 0.0;
-}
-#image-hover:hover {
-    opacity: 0.6;
-    cursor: pointer;
-}
-#view-icon {
-    width: 80px;
-    position: relative;
-    left: 130px;
-    top: 130px;
-    z-index: 3;
-}
 #card-body {
     width: 400px;
     height: 680px;
@@ -41,6 +19,9 @@ body {
     width: 350px;
     border-radius: 5px;
     margin: 25px;
+}
+#nft-image:hover {
+    cursor: pointer;
 }
 #nft-title {
     font-family: 'Outfit', sans-serif;
